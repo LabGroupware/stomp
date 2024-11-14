@@ -64,4 +64,9 @@ management:
     web:
       exposure:
         include: "*"
-
+logging:
+  level:
+    org:
+      springframework:
+        web:
+          socket: DEBUG
